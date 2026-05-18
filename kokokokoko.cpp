@@ -669,7 +669,7 @@ int main()
 {
 
     sgCreateWindow(1280,800);
-    //изображения
+    //РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
     HBITMAP fireDR=(HBITMAP)LoadImage(0,"fireballR.bmp",IMAGE_BITMAP,0,0,LR_LOADFROMFILE);
     HDC fireball_R=CreateCompatibleDC(SGWndDC);
     sgSelectTool(fireball_R,fireDR);

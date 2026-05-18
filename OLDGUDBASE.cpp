@@ -6,7 +6,7 @@ int main()
     sgCreateWindow(1280,600);
 
 
-    //изображения
+    //РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
                 HBITMAP image1000=(HBITMAP)LoadImage(0,"list2.bmp",IMAGE_BITMAP,0,0,LR_LOADFROMFILE);
                 HDC World=CreateCompatibleDC(SGWndDC);
                 sgSelectTool(World,image1000);
@@ -159,7 +159,7 @@ int main()
                 sgSelectTool(fallL,fall2);
 
 
-//незнаю надо ли ещё 1 бул для проверки ввоздухе. i just dont know what went wrong:o
+//РЅРµР·РЅР°СЋ РЅР°РґРѕ Р»Рё РµС‰С‘ 1 Р±СѓР» РґР»СЏ РїСЂРѕРІРµСЂРєРё РІРІРѕР·РґСѓС…Рµ. i just dont know what went wrong:o
 
 int partypose=0;
 int partyposeL=0;

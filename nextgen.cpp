@@ -8,7 +8,7 @@ int main()
     sgCreateWindow(800,600);
 
 
-    //изображения
+    //РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
     HBITMAP image1000=(HBITMAP)LoadImage(0,"list2.bmp",IMAGE_BITMAP,0,0,LR_LOADFROMFILE);
     HDC list=CreateCompatibleDC(SGWndDC);
     sgSelectTool(list,image1000);
@@ -108,7 +108,7 @@ int main()
                 HBITMAP image110=(HBITMAP)LoadImage(0,"left11.bmp",IMAGE_BITMAP,0,0,LR_LOADFROMFILE);
                 HDC left11=CreateCompatibleDC(SGWndDC);
                 sgSelectTool(left11,image110);
-                // конец изображений
+                // РєРѕРЅРµС† РёР·РѕР±СЂР°Р¶РµРЅРёР№
                 HBITMAP mir= CreateCompatibleBitmap (SGWndDC, 800, 600);
                 HDC Mir= CreateCompatibleDC (SGWndDC);
                 sgSelectTool(Mir,mir);

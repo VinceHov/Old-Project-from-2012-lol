@@ -19,7 +19,7 @@ int player_LIVES=10;
 bool ground_player=false;
 bool player_fall=true;
 int lime= 124+(252<<8)+(0<<16);
-///// ÇÀÒÈÐÀÍÈÈ ÏÐÈ ÏÐÅÏßÒÑÂÈÈ//////
+///// Ð—ÐÐ¢Ð˜Ð ÐÐÐ˜Ð˜ ÐŸÐ Ð˜ ÐŸÐ Ð•ÐŸÐ¯Ð¢Ð¡Ð’Ð˜Ð˜//////
 
 
 int player_sleep=35000;
@@ -585,7 +585,7 @@ int main()
 {
 
     sgCreateWindow(1280,800);
-    //èçîáðàæåíèÿ
+    //Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ
     HBITMAP fireDR=(HBITMAP)LoadImage(0,"fireballR.bmp",IMAGE_BITMAP,0,0,LR_LOADFROMFILE);
     HDC fireball_R=CreateCompatibleDC(SGWndDC);
     sgSelectTool(fireball_R,fireDR);
